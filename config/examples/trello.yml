@@ -1,0 +1,7 @@
+development:
+  public_key:  'public'
+  secret_key:  'secret'
+
+test:
+  public_key:  'public'
+  secret_key:  'secret'
