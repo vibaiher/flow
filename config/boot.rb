@@ -9,8 +9,4 @@ $LOAD_PATH.unshift(root + '/lib')
 
 require 'flow'
 
-initializer_paths = Dir[root + '/config/initializers/*.rb']
-initializer_paths.each { |file|
-  puts file
-  require file
-}
+Dir[root + '/config/initializers/*.rb'].each { |file| require file }
