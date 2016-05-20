@@ -1,7 +1,7 @@
 development:
-  public_key:  'public'
-  secret_key:  'secret'
+  app_key:  'public'
+  authorization_key:  'secret'
 
 test:
-  public_key:  'public'
-  secret_key:  'secret'
+  app_key:  'public'
+  authorization_key:  'secret'
